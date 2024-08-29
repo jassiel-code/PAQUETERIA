@@ -1,0 +1,51 @@
+body {
+    background-image: url("paqueteriaa.jpeg");
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #c51515;
+}
+
+h1 {
+    color:black;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(145, 81, 35);
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(146, 78, 29);
+}
+
+#paquetes-lista {
+    margin-top: 20px;
+}
+
+.paquete {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color:rgb(224, 132, 67);
+}
+
+.urgente {
+    border-left: 5px solid red;
+}
+
+.muy-urgente {
+    border-left: 5px solid darkred;
+}
+
+.poco-urgente {
+    border-left: 5px solid orange;
+}
+
+.normal {
+    border-left: 5px solid green;
+}
